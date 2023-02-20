@@ -21,11 +21,13 @@ B) GitHub:
 ```
 python3 -m venv env
 ```
+```
 source env/bin/activate
+```
 3. Install requirements.txt
 ```
 pip install -r requirements.txt
-
+```
 
 To list the already added thumbnails you can use:
 
