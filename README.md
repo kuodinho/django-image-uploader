@@ -1,6 +1,7 @@
 Migrations have been already applied, to that it is possible to fetch thumbnails from the start.
 
 There are two way to start the app using the virual environement or Docker. This README describes only how to start the app using:
+<br>
 A) Docker:
 
 1. Install [docker](https://docs.docker.com/desktop/install/mac-install/).
@@ -28,7 +29,10 @@ source env/bin/activate
 ```
 pip install -r requirements.txt
 ```
-
+4. Start a development web server:
+```
+python manage.py runserver
+```
 To list the already added thumbnails you can use:
 
 ```
